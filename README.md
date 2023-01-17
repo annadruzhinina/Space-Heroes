@@ -1,3 +1,7 @@
+Orlando [https://github.com/orpichardo/Final_Space_Api](https://github.com/orpichardo/Final_Space_Api)
+
+Me [https://github.com/annadruzhinina/Space-Heroes](https://github.com/annadruzhinina/Space-Heroes)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
