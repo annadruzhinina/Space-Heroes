@@ -12,7 +12,20 @@
 }
 
 .nav-links {
-  color: white;
+  color: wheat;
+  font-weight: 900;
   text-decoration: none;
   padding-right: 20px;
+  padding: 12px 38px;
+  /* border: 2px solid aliceblue; */
+  /* border-radius: 26px; */
+  margin: 10px;
+  border-bottom: 3px solid wheat;
+  transition: all 400ms ease-out;
+}
+
+.nav-links:hover {
+  /* background-color: antiquewhite; */
+  background: wheat;
+  color: black;
 }

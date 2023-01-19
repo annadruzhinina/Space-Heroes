@@ -6,11 +6,11 @@
 
 .home-title {
   background-color: black;
-  color: white;
+  color: wheat;
 }
 
 span {
-  color: gray;
+  color: rgba(245, 222, 179, 0.595);
   font-size: 14px;
 }
 
@@ -44,7 +44,7 @@ img {
 }
 
 .home-text {
-  color: white;
+  color: wheat;
   text-align: left;
   text-align: justify;
   font-size: 1.2rem;

@@ -9,7 +9,7 @@
 
 .body-detail {
   background-color: black;
-  /* height: 100vh; */
+  height: 100vh;
 }
 
 .img {
@@ -62,7 +62,6 @@ p {
   font-size: 18px;
   width: 150px;
   height: 67px;
-  border-radius: 36px;
 }
 
 .btn-container {
@@ -87,4 +86,35 @@ p {
 
 .delete-btn:hover {
   opacity: 80%;
+}
+
+@media screen and (max-width: 1000px) {
+  .body {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .img-container {
+    flex-basis: 100%;
+    order: 1;
+    padding-top: 15px;
+    display: contents;
+  }
+  .description {
+    margin-top: 25px;
+    order: 2;
+    text-align: justify;
+    color: black;
+  }
+  .name-detail {
+    text-align: center;
+  }
+  .body-detail {
+    background-color: white;
+  }
+  .button {
+    color: white;
+  }
+  .btn-container {
+    justify-content: center;
+  }
 }
