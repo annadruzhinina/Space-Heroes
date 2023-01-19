@@ -19,12 +19,13 @@
   justify-content: center;
   min-height: 110vh;
   align-items: center;
-  background-color: #f9b303b4;
+  background-color: black;
 }
 
 .hero-name {
-  color: black;
+  color: wheat;
   list-style-type: none;
+  font-size: 20px;
 }
 
 .avatar-img {
@@ -41,8 +42,9 @@ h2 {
 }
 
 h1 {
-  background-color: #f9b303b4;
+  background-color: black;
   text-align: center;
+  color: wheat;
 }
 
 .link {

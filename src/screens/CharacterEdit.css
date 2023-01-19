@@ -1,5 +1,6 @@
 .edit-body {
-  background-color: #f9b303b4;
+  background-color: black;
+  height: 100vh;
 }
 
 h2 {
@@ -10,8 +11,8 @@ form {
   width: 400px;
   margin-top: 20px;
   margin: 20px auto;
-  padding: 20px;
-  background-color: #2a9d8f;
+  padding: 10px;
+  background-color: rgb(106, 9, 9);
   color: white;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -38,7 +39,7 @@ input[type="text"] {
 button[type="submit"] {
   width: 100%;
   padding: 12px 20px;
-  background-color: #145f56;
+  background-color: rgb(106, 9, 9);
   color: white;
   border: 1px solid white;
   border-radius: 5px;

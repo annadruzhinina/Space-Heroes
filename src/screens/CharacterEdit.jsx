@@ -46,7 +46,7 @@ export default function CharacterEdit() {
 
   return (
     <div className="edit-body">
-      <h2>Update Character </h2>
+      <h2> </h2>
       <form className="create-form" onSubmit={handleSubmit}>
         <input
           type="text"
@@ -111,7 +111,7 @@ export default function CharacterEdit() {
           value={character.img_url}
           onChange={handleChange}
         />
-        <button type="submit">Edit Your Character!!!</button>
+        <button type="submit">Save</button>
       </form>
     </div>
   );
