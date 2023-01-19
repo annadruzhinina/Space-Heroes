@@ -13,6 +13,9 @@ function Navbar() {
         <Link to="/characters" className="nav-links">
           Characters
         </Link>
+        <Link to="/add-character" className="nav-links">
+          Create Character
+        </Link>
       </nav>
     </header>
   );

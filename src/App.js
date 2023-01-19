@@ -8,6 +8,7 @@ import Home from "./screens/Home.jsx";
 import Characters from "./screens/Characters.jsx";
 import CharacterDetail from "./screens/CharacterDetail.jsx";
 import CharacterEdit from "./screens/CharacterEdit.jsx";
+import CharacterCreate from "./screens/CharacterCreate.jsx";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/characters" element={<Characters />} />
             <Route path="/characters/:id" element={<CharacterDetail />} />
-            {/* <Route path="/characters" element={<CharacterCreate />} /> */}
+            <Route path="/add-character" element={<CharacterCreate />} />
             <Route path="/characters/:id/edit" element={<CharacterEdit />} />
           </Routes>
         </Router>
