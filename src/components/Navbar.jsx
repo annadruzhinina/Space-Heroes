@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
-import "../style/Navbar.css";
+import "../style/navbar.css";
 
 function Navbar() {
   return (
