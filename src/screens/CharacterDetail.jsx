@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { deleteCharacter, getCharacter } from "../services/characters.js";
 import { Link, useParams, useNavigate } from "react-router-dom";
-import "./CharactersDetail.css";
+import "../style/charactersDetail.css";
 
 export default function CharacterDetail() {
   const [character, setCharacter] = useState({});

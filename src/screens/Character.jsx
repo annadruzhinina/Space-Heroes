@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Characters.css";
+import "../style/characters.css";
 
 export default function Character({ character }) {
   return (

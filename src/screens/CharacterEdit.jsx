@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { updateCharacter, getCharacter } from "../services/characters.js";
-import "./CharacterEdit.css";
+import "../style/characterEdit.css";
+
 export default function CharacterEdit() {
   const [character, setCharacter] = useState({
     _id: "",
