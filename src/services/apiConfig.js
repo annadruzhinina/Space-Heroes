@@ -3,7 +3,7 @@ import axios from "axios";
 let apiUrl;
 
 const apiUrls = {
-  production: "www.my-backend-api.raiway.com/",
+  production: "https://finalspaceapi-production.up.railway.app/characters",
   development: "http://localhost:4000/api",
 };
 
