@@ -53,3 +53,13 @@ img {
   margin-bottom: 2rem;
   list-style-type: none;
 }
+
+@media screen and (max-width: 1300px) {
+  .banner-left {
+    display: none;
+  }
+  .banner-right {
+    display: flex;
+    justify-content: center;
+  }
+}
