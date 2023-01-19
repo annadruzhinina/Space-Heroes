@@ -1,0 +1,94 @@
+.container {
+  margin: 24px 150px;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  border: 3px solid black;
+  margin: 20px;
+}
+
+.img-container {
+  padding-top: 90px;
+}
+p {
+  margin: 20px;
+  display: list-item;
+}
+/* ul {
+    counter-reset: list;
+    border-left: 2px solid lightgrey;
+    margin: 1em;
+    padding: 0;
+  }
+  
+  ul li {
+    list-style: none;
+    margin: 0 0 0.5em 0;
+    padding: 0;
+  }
+  
+  ul li:before {
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+    margin: 0 0.5em 0 -0.65em;
+    border-radius: 50%;  
+    content: counter(list);
+    text-align: center;
+    background: lightgrey;
+    counter-increment: list;
+  } */
+
+.description {
+  text-align: left;
+  text-align: justify;
+  font-size: 1.2rem;
+  line-height: 1.3;
+  margin-top: 1.2rem;
+  margin-bottom: 2rem;
+  margin-left: 1.2rem;
+}
+
+h2 {
+  padding-bottom: 30px;
+}
+
+.button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 20px;
+  color: black;
+  font-weight: 900;
+  font-size: 25px;
+  width: 250px;
+  height: 80px;
+  border-radius: 50px;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.edit-btn {
+  background: #ffb703;
+}
+
+.edit-btn:hover {
+  opacity: 70%;
+}
+
+.delete-btn {
+  background: #2a9d8f;
+}
+
+.delete-btn:hover {
+  opacity: 80%;
+}

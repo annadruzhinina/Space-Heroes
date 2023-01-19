@@ -11,8 +11,11 @@ function Navbar() {
         <Link to="/" className="nav-links">
           Home
         </Link>
-        <Link to="/heroes" className="nav-links">
+        {/* <Link to="/heroes" className="nav-links">
           Heroes
+        </Link> */}
+        <Link to="/characters" className="nav-links">
+          Characters
         </Link>
       </nav>
     </header>

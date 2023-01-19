@@ -1,0 +1,56 @@
+.characters-list {
+  padding: 30px;
+  --n: 4; /* number of rows*/
+  --m: 5; /* number of columns */
+  --g: 20px; /* control the gap */
+  --f: 1.5; /* control the scale factor */
+
+  display: grid;
+  gap: var(--g);
+  width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
+  height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
+  grid-template-columns: repeat(var(--m), auto);
+}
+
+.characters-body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 110vh;
+  align-items: center;
+  background-color: #f9b303b4;
+}
+
+.hero-name {
+  color: black;
+  list-style-type: none;
+}
+
+.avatar-img {
+  object-fit: cover;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 12px;
+  border: 2px solid white;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h1 {
+  background-color: #f9b303b4;
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  width: 100%;
+  transform: scale(0.9);
+  transition: 0.5s all ease;
+}
