@@ -5,7 +5,6 @@ import "../style/characters.css";
 export default function Character({ character }) {
   return (
     <Link className="link" to={`/characters/${character._id}`}>
-      {/* <h2 className="hero-name link">{character.name}</h2> */}
       <img
         className="avatar-img"
         alt="avatar"
@@ -13,4 +12,8 @@ export default function Character({ character }) {
       ></img>
     </Link>
   );
+}
+
+{
+  /* <h2 className="hero-name link">{character.name}</h2> */
 }
