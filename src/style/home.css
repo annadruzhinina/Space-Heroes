@@ -53,7 +53,7 @@ img {
   margin-bottom: 2rem;
   list-style-type: none;
 }
-
+/*
 @media screen and (max-width: 1300px) {
   .banner-left {
     display: none;
@@ -61,5 +61,36 @@ img {
   .banner-right {
     display: flex;
     justify-content: center;
+  }
+} */
+/* ==================MEDIA QUERIES (MEDIUM DEVICES)==================== */
+
+@media screen and (max-width: 1024px) {
+  .banner-left {
+    display: none;
+  }
+  .banner-right {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* ==================MEDIA QUERIES (SMALL DEVICES)==================== */
+
+@media screen and (max-width: 600px) {
+  .banner-left {
+    display: none;
+  }
+  .banner-right {
+    display: flex;
+    /* justify-content: center; */
+    width: 50%;
+    margin: 0 auto 3rem;
+  }
+  .home-text {
+    margin: 0 1rem 0 1rem;
+  }
+  .navbar {
+    margin: auto;
   }
 }
