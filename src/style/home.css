@@ -78,6 +78,19 @@ img {
 /* ==================MEDIA QUERIES (SMALL DEVICES)==================== */
 
 @media screen and (max-width: 600px) {
+  .characters-list {
+    padding: 30px;
+    --n: 3; /* number of rows*/
+    --m: 3; /* number of columns */
+    --g: 20px; /* control the gap */
+    --f: 1.5; /* control the scale factor */
+
+    display: grid;
+    gap: var(--g);
+    width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
+    height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
+    grid-template-columns: repeat(var(--m), auto);
+  }
   .banner-right {
     display: none;
   }

@@ -1,15 +1,15 @@
 .characters-list {
-    padding: 30px;
-    --n: 4; /* number of rows*/
-    --m: 5; /* number of columns */
-    --g: 20px; /* control the gap */
-    --f: 1.5; /* control the scale factor */
+  padding: 30px;
+  --n: 4; /* number of rows*/
+  --m: 5; /* number of columns */
+  --g: 20px; /* control the gap */
+  --f: 1.5; /* control the scale factor */
 
-    display: grid;
-    gap: var(--g);
-    width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
-    height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
-    grid-template-columns: repeat(var(--m), auto);
+  display: grid;
+  gap: var(--g);
+  width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
+  height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
+  grid-template-columns: repeat(var(--m), auto);
 }
 
 .characters-body {
